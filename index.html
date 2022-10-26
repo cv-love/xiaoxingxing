@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>照片墙</title>
+		<style>
+			div{
+				text-align: center
+			}
+ 			h1{
+				text-align: center
+			}
+            body{
+				background-color: cyan;
+			}
+			p img{
+				border-style: solid;
+				border-width: 10px;
+				border-color: white;
+			}
+			.a img{
+				position: absolute;
+				z-index: 20;
+				left: 300px;
+				top: 180px;
+				border-style: solid;
+				border-width: 10px;
+				border-color: white;
+			}
+			.b img{
+				position: absolute;
+				z-index: 20;
+				left: 950px;
+				top: 180px;
+				border-style: solid;
+				border-width: 10px;
+				border-color: white;
+			}
+			.c img{
+				position: absolute;
+				z-index: 20;
+				left: 500px;
+				top: 350px;
+				border-style: solid;
+				border-width: 10px;
+				border-color: white;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>css照片墙</h1>
+		<div>
+		<p>
+			<img src="a.jpg"width='200' height='200'/>
+			<img src="b.jpg"width='200' height='200'/>
+			<img src="c.jpg"width='200' height='200'/>
+			<img src="d.jpg"width='200' height='200'/>
+			<img src="e.jpg"width='200' height='200'/>
+			
+			<div class="a">
+			<img src="f.jpg"width='200' height='200'/>
+			</div>
+			<div class="b">
+			<img src="g.jpg"width='200' height='200'/>
+			</div>
+		</p>
+		<p>
+			<img src="h.jpg"width='200' height='200'/>
+			<img src="i.jpg"width='200' height='200'/>
+			<img src="j.jpg"width='200' height='200'/>
+			<img src="k.jpg"width='200' height='200'/>
+			<img src="l.jpg"width='200' height='200'/>
+			
+			<div class="c">
+			<img src="m.jpg"width='200' height='200'/>
+			</div>
+		</p>
+		<p>
+			<img src="n.jpg"width='200' height='200'/>
+			<img src="o.jpg"width='200' height='200'/>
+			<img src="p.jpg"width='200' height='200'/>
+			<img src="q.jpg"width='200' height='200'/>
+			<img src="r.jpg"width='200' height='200'/>
+		</p>
+		</div>
+	</body>
+</html>
